@@ -8,8 +8,8 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Madrid
-      - SUBDOMAINS=subdomain1,subdomain2
-      - TOKEN=token
+      - SUBDOMAINS= boliviapunto.duckdns.org
+      - TOKEN=e884f5d7-73eb-4b27-91e0-22a4bf9d30c3
     volumes:
       - ./duckdns/config:/config
     restart: unless-stopped
